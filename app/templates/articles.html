@@ -3,12 +3,15 @@
 {% block styles%}
     {{ super() }}
     <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Supermercado+One&display=swap" rel="stylesheet">
 {% endblock %}
 <h1> Hello Source {{ id }} </h1>
         {% block content %}
        
             
-        <h3 id ="head"> Top Articles</h3>
+        <h3 id ="newArticles" style="color: #303031; margin-bottom: 3em; margin-top: 2em; margin-left: 2.1em;"> Top New Articles</h3>
             <ul>
                 {{ macro.displayArticleList(article)}}
             </ul>
