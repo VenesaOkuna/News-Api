@@ -11,7 +11,7 @@ def index():
     View root page function that returns the index page and its data
     '''
 
-    # Getting popular movie
+    # Getting popular article
     popular_source = get_source()
    
     # print(popular_source)
@@ -29,4 +29,3 @@ def articles(source_id):
     title = f'{source_id}'
 
     return render_template('articles.html', title=title, article=articles)
-    
