@@ -2,7 +2,9 @@
 
 
 body{
-    background-color: #b1b1b1;
+
+    background-image: url(https://images.pexels.com/photos/373481/pexels-photo-373481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    
 }
 
 #newArticles{
@@ -10,11 +12,18 @@ body{
     font-weight: 900;
     font-family: 'Supermercado One', cursive;
 }
-#display1{
-    background-color:#254d3b;
+
+#head{
+    text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+    font-family: 'Supermercado One', cursive;
 }
-#display{
-    font-weight: 800;
+
+#display1{
+    font-weight: 500;
+    font-size:x-large;
+
     color: #fff;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.4);
@@ -23,4 +32,19 @@ body{
     backdrop-filter: blur(8.9px);
     -webkit-backdrop-filter: blur(8.9px);
     border: 1px solid rgba(255, 255, 255, 0.34);
+    font-family: 'Dongle', sans-serif;
+}
+
+#display{
+    font-weight: 500;
+    font-size:x-large;
+    color: #fff;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    font-family: 'Dongle', sans-serif;
 }
